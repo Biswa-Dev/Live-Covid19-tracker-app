@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #171624;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+h1,h2,h3{
+    margin-bottom: 5px;
+}
+.all-cards{
+    width: 80%;
+    /* border: 1px solid white; */
+    margin: 40px auto;
+    padding: 20px;
+}
+.cards{
+    display: inline-block;
+    flex-wrap: wrap;
+    min-width: 250px;
+    margin: 10px 10px;
+    padding: 20px 20px 40px 20px;
+    /* border: 1px solid greenyellow; */
+    background-color: #201f32;
+    border-radius: 5px;
+}
+.cards h1{
+    margin-top: 10px;
+    font-size: 2rem;    
+}
+.confirmed{
+    color: #f10e39;
+}
+.active{
+    color: #0b7bfc;
+}   
+.recovered{
+    color: #2aa541;
+}   
+.deceased{
+    color: #6c707c;
+}
+.migrated{
+
+}
